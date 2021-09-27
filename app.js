@@ -156,11 +156,11 @@ function clickHandler(e){
         var isPalindrome = checkPalindromeForAllDateFormats(date);
         console.log("Is Birthday Palindrome?: ",isPalindrome);
         if (isPalindrome){
-            output.innerText="Hurray your Birthday is Palindrome";
+            output.innerText="Hurray!! your Birthday is Palindrome 🥳";
         }
         else{
             var [count,nextDate] = nextPalindromeDate(date); //will give the no-of-days and next palindrome date
-            output.innerText = `You missed by ${count} days and next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}`;
+            output.innerText = `You missed by ${count} days 😯 and next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}`;
         }
     }
     else{

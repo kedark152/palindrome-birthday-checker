@@ -1,4 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+* {
+	box-sizing: border-box;
+}
 body{
-    background-color: black;
+    background: url("./Images/birthday.jpg")  no-repeat center center/cover;
+    font-family: 'Koh Santepheap', 'cursive';
+}
+#main-body{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.884);
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+label{
+    display: block;
+    color: royalblue;
+    font-weight: bold;
+}
+button{
+    border: none;
+    display: block;
+    margin: 1rem auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: purple;
     color: white;
+    cursor: pointer;
+    
+}
+h1{
+    color: purple;
+    
+}
+h2{
+    color: navy;
+    font-size: 20px;
+}
+input{
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem ;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 2px solid purple;
+}
+#btn:hover{
+    background-color: rgb(150, 25, 150);
 }
